@@ -2,6 +2,8 @@
 
 A [Cesium](https://cesium.com) demo using [Webpack](https://webpack.js.org/) featuring Switzerland's Zurich Airport.
 
+This demo leverages the [OpenSky Network API](https://openskynetwork.github.io/opensky-api/) to display local aircrafts in geospace, and also visualizes a hypothetical addition to the Zurich Airport Center.
+
 ## Running this application
 
 First, you'll need to replace the Cesium access token in index.js with your own access token. This can be found at https://ion.cesium.com/tokens.
