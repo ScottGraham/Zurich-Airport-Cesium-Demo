@@ -1,0 +1,34 @@
+html,
+body,
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#toggle-airport-addition { 
+  z-index: 1;
+  position: fixed; 
+  top: 5px;
+  left: 5px;
+}
+#view-airport-center { 
+  z-index: 1;
+  position: fixed; 
+  top: 5px;
+  left: 200px;
+}
+#view-runway { 
+  z-index: 1;
+  position: fixed; 
+  top: 5px;
+  left: 335px;
+}
+#view-airspace { 
+  z-index: 1;
+  position: fixed; 
+  top: 5px;
+  left: 434px;
+}
+
