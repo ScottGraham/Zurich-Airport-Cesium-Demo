@@ -17,14 +17,20 @@ The geocoordinates for the airport addition are:
 * Latitude: 47.4492720122
 * Height: 490.6627273613
 * Heading: -23.4
+
 The 3D model will also need to be scaled down to .01 size.
 
 After the token is replaced and the asset ID is replaced, navigate to the project directory and execute the following commands:
 ```sh
 npm install
 npm start
-# for the built version
-npm run build
-npm run start:built
 ```
 Then navigate to `localhost:8080`.
+
+## Building this application
+
+```sh
+npm run build
+# To run the build
+npm run start:built
+```
